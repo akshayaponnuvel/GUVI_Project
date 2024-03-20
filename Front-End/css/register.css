@@ -1,0 +1,32 @@
+.text-center{
+    color: #035941;
+}
+
+.btn {
+    background-color: #035941;
+    border-color: transparent;
+}
+
+.btn:hover{
+    background-color: #035941;
+    border-color: transparent;
+}
+
+.form-control{
+    border:1px solid gray;
+    background-color: #dffbe8;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.form-control:hover{
+    border:1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+#register{
+    color: #035941;
+    margin-left: 1px;
+    text-decoration: none;
+}

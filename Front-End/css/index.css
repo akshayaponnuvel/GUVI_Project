@@ -1,0 +1,109 @@
+body{
+  overflow: hidden;
+  background-color: #035941;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  top: 40px;
+  left: 60px;
+  background-color: #035941;
+  overflow: hidden;
+}
+
+          
+.container img {
+  position: absolute;
+  left: 48%;
+  top: 25%;
+  height: 49%;
+  width: auto;
+  animation: slideLeft 4s forwards;
+  animation-delay: 1s;
+  transform: translateX(-55%);
+  background-color: #035941;
+  z-index: 2;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-55%);
+  }
+  100% {
+    transform: translateX(-95%);
+  }
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  right: 9%;
+  height: 28%;
+  width: 50%;
+  background-color:#035941;
+  padding: 20px;
+  box-sizing: border-box;
+  animation: slideRight 4s forwards;
+  animation-delay: 1s;
+  z-index: 1;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+
+.text h1 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  color:white;
+  margin-top: 0;
+}
+
+.button{
+  display: inline block;
+  z-index: 3;
+  position: relative;
+  top: 100px;
+  left: 380px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.a1 {
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #0DBA4B;
+  border-radius: 5px;
+  border: none; 
+  height: 50px;
+  width: 400px;
+  position: relative;
+  right: 25%;
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.a1:hover{
+  color: black;
+}
+

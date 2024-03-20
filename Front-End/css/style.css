@@ -1,0 +1,194 @@
+body {
+    overflow: hidden;
+}
+
+.reg-background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: #035941;
+    background-image: url('https://www.guvi.in/web-build/images/signup-banner.5254a64a3857c50f02854154805a864d.png'); 
+    background-size: 35vw 60vh; 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.log-background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: #035941;
+    background-image: url('https://www.guvi.in/web-build/images/left-banner.da327dffd6c3f2b5153d62b45fbc3f5a.png'); 
+    background-size: 30vw 60vh; 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.login-form {
+	position: absolute;
+	padding-left: 55%;
+    height: max-content;
+    width: max-content;
+}
+
+.log-form-title{
+    position: relative;
+    left: -15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+
+
+.reg-form1 {
+	position: relative;
+	padding-left: 55%;
+    height: max-content;
+    width: max-content;
+}
+
+.reg-form-title{
+    position: relative;
+    top: -30px;
+    left: -20px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: normal;
+}
+
+.input-label{
+    position: relative;
+    left:-10px;
+    top: -20px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px ;
+    font-weight:300;
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.input{
+    width: 600px;
+    height: 50px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border-radius: 5px;
+    border:1px solid gray;
+    background-color: #dffbe8;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.password-toggle {
+    position: relative;
+    top: 50%;
+    right: 50px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999; 
+}
+
+.forgot-password{
+    position: relative;
+    top: -20px;
+    left: -10px;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px ;
+    font-weight:300;
+    font-style: normal;
+}
+
+.forms-button{
+    width: 650px;
+    height: 55px;
+    position: relative;
+    top: 60px;
+    left: -135px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #0DBA4B;
+    color: white;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px ;
+    font-weight:100;
+    font-style: normal;
+}
+
+.forms-button1{
+    width: 650px;
+    height: 55px;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #0DBA4B;
+    color: white;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px ;
+    font-weight:100;
+    font-style: normal;
+}
+
+
+.forms-button:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.forms-button1:hover{
+    cursor: pointer;
+    color: #000000;
+}
+
+.acc{
+    display: inline-block;
+    position: relative;
+    padding-top: 70px;
+    left: -10px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px ;
+    font-weight:300;
+    font-style: normal;
+}
+
+.reg-acc{
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    left: -10px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px ;
+    font-weight:100;
+    font-style: normal;
+}
+
