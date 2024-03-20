@@ -42,8 +42,9 @@
     height: 200px;
     border-radius: 50%;
     position: absolute;
-    top: 200px; /* Align to the bottom */
-    right: 40px; /* Align to the right */
+    top: 200px;
+    right: 40px; 
+    border: 5px solid white;
   }
   
   .form-container {
