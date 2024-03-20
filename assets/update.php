@@ -6,8 +6,8 @@ use MongoDB\Client;
 
 // MongoDB connection parameters
 $mongoClient = new Client("mongodb://localhost:27017");
-$mongoDatabase = $mongoClient->selectDatabase('guviproject'); // Replace 'your_database_name' with your actual database name
-$mongoCollection = $mongoDatabase->selectCollection('userreg'); // Replace 'user_profiles' with your actual collection name
+$mongoDatabase = $mongoClient->selectDatabase('guviproject'); 
+$mongoCollection = $mongoDatabase->selectCollection('userreg'); 
 
 // Check if the request method is POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
